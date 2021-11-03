@@ -48,7 +48,7 @@ const WomenIntro = () => {
     return (
         <div className='WomenIntro'>
            <Header /> 
-           <WomenHeader />  
+           <WomenHeader />     
            <WomenHero />
            <HeroHeader />
            <Carousel className={classes.Carousel} breakPoints={breakPoints} enableAutoPlay={true} autoPlaySpeed={4000}>
