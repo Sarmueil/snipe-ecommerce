@@ -73,7 +73,7 @@ const NewProductPage = () => {
                   <NewProducts item={item} key={item._id}/>   
                ))} 
            </Container> 
-           <NewFeatured /> 
+           <NewFeatured />  
            <XclusiveHeader />
           <Carousel className={classes.Carousel} breakPoints={breakPoints} enableAutoPlay={true} autoPlaySpeed={4000}>
                   {relatedProducts.map((product)=>(
