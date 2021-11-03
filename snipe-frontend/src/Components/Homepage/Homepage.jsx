@@ -21,7 +21,7 @@ const useStlyes = makeStyles({
         marginTop:'50px',
     },
     Homepage:{
-       width:'100%',   
+       width:'100%',      
        position:'relative' 
     }
 });
