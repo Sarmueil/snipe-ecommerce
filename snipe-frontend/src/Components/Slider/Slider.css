@@ -1,0 +1,6 @@
+.hero-slide{
+    height:500px !important;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}

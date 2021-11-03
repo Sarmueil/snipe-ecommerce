@@ -1,0 +1,12 @@
+.rec-arrow-left{
+   color: black;
+   background-color: #E5E5E5;
+}
+.rec-arrow-right{
+    color: black;
+    background-color: #E5E5E5;
+ }
+.rec.rec-arrow:hover {
+    color: #E5E5E5;
+    background-color: black;
+}
