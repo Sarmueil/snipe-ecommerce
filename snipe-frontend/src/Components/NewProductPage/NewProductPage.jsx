@@ -48,7 +48,7 @@ const NewProductPage = () => {
         <div className='newProductPage'>
           <Header/> 
           <NewProductHeader />
-          <FilterContainer>
+          <FilterContainer>  
              <Filter><FilterText>Filters</FilterText>
                 <Select>
                     <Option disabled selected>Categories</Option>
