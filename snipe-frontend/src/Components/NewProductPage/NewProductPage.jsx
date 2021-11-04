@@ -27,22 +27,22 @@ const breakPoints = [
 ]
 
 const NewProductPage = () => {
-//    const [ newProducts, setNewProducts ] =useState([]);
-//    useEffect(()=>{
-//       const fetchNewProducts = async()=>{
-//          const { data } = await(axios.get('/api/newProducts'))
-//          setNewProducts(data)
-//       }
-//       fetchNewProducts()
-//    },[])
-//    const [relatedProducts, setRelatedProducts] = useState([]);  
-//     useEffect(()=>{
-//         const fetchRelated= async()=>{
-//             const { data } = await(axios.get('/api/related'))
-//             setRelatedProducts(data)
-//         }
-//         fetchRelated()
-//     },[])
+   const [ newProducts, setNewProducts ] =useState([]);
+   useEffect(()=>{
+      const fetchNewProducts = async()=>{
+         const { data } = await(axios.get('/api/newProducts'))
+         setNewProducts(data)
+      }
+      fetchNewProducts()
+   },[])
+   const [relatedProducts, setRelatedProducts] = useState([]);  
+    useEffect(()=>{
+        const fetchRelated= async()=>{
+            const { data } = await(axios.get('/api/related'))
+            setRelatedProducts(data)
+        }
+        fetchRelated()
+    },[])
     const classes = useStlyes()
     return (
         <div className='newProductPage'>
