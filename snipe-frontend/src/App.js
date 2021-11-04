@@ -19,7 +19,7 @@ import KidsProductPage from './Components/KidsProductPage/KidsProductPage';
 function App() {
   return (
     <BrowserRouter>
-       <div className="app">
+       <div className="app"> 
     <Routes>
         <Route path="/" exact element={<Homepage />}/>
         <Route path="/new" element={<NewProductPage />}/>
