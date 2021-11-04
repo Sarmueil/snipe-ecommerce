@@ -28,22 +28,22 @@ const breakPoints = [
 ]
 
 const WomenIntro = () => {
-    // const [ newProducts, setNewProducts ] = useState([]);
-    // useEffect(()=>{
-    //     const fetchNewProducts =async()=>{
-    //         const { data } = await(axios.get('/api/womenNew'));
-    //         setNewProducts(data) 
-    //     }
-    //     fetchNewProducts()
-    // },[]);
-    // const [relatedProducts, setRelatedProducts] = useState([]); 
-    // useEffect(()=>{
-    //     const fetchRelated= async()=>{
-    //         const { data } = await(axios.get('/api/related'))
-    //         setRelatedProducts(data)
-    //     }
-    //     fetchRelated()
-    // },[])
+    const [ newProducts, setNewProducts ] = useState([]);
+    useEffect(()=>{
+        const fetchNewProducts =async()=>{
+            const { data } = await(axios.get('/api/womenNew'));
+            setNewProducts(data) 
+        }
+        fetchNewProducts()
+    },[]);
+    const [relatedProducts, setRelatedProducts] = useState([]); 
+    useEffect(()=>{
+        const fetchRelated= async()=>{
+            const { data } = await(axios.get('/api/related'))
+            setRelatedProducts(data)
+        }
+        fetchRelated()
+    },[])
     const classes = useStlyes()
     return (
         <div className='WomenIntro'>
