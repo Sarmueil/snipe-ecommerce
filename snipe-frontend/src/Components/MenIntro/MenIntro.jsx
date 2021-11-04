@@ -21,15 +21,15 @@ const useStlyes = makeStyles({
     }
 });
 
-// const breakPoints = [
-//     {width:1, itemsToShow: 1},
-//     {width:550, itemsToShow: 2}, 
-//     {width:768, itemsToShow: 3},
-//     {width:1200, itemsToShow: 3}
-// ]
+const breakPoints = [
+    {width:1, itemsToShow: 1},
+    {width:550, itemsToShow: 2}, 
+    {width:768, itemsToShow: 3},
+    {width:1200, itemsToShow: 3}
+]
 
 const MenIntro = () => {
-    const [menNew, setmenNew ] = useState([]);
+    // const [menNew, setmenNew ] = useState([]);
     // useEffect(()=>{
     //     const fetchNew = async()=>{
     //         const { data } = await(axios.get('/api/menNew'))

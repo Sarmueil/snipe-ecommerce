@@ -1,0 +1,14 @@
+{
+  "name": "snipe-ecommerce",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node snipe-backend/server"
+  },
+  "repository": "git@github.com:Sarmueil/snipe-ecommerce.git",
+  "author": "Sarmueil <adedoyin.adebisi@decagon.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
