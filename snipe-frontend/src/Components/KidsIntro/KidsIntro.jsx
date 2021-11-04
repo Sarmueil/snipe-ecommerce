@@ -30,22 +30,22 @@ const breakPoints = [
 ]
 
 const KidsIntro = () => {
-  // const [newProducts, setNewProducts]= useState([]);
-  //   useEffect(()=>{
-  //      const fetchNew = async()=>{
-  //          const { data } = await(axios.get('/api/kidsNew')); 
-  //          setNewProducts(data)
-  //      }
-  //      fetchNew()
-  //   },[])
-  //   const [relatedProducts, setRelatedProducts] = useState([]); 
-  //   useEffect(()=>{
-  //       const fetchRelated= async()=>{
-  //           const { data } = await(axios.get('/api/related'))
-  //           setRelatedProducts(data)
-  //       }
-  //       fetchRelated()
-  //   },[])
+  const [newProducts, setNewProducts]= useState([]);
+    useEffect(()=>{
+       const fetchNew = async()=>{
+           const { data } = await(axios.get('/api/kidsNew')); 
+           setNewProducts(data)
+       }
+       fetchNew()
+    },[])
+    const [relatedProducts, setRelatedProducts] = useState([]); 
+    useEffect(()=>{
+        const fetchRelated= async()=>{
+            const { data } = await(axios.get('/api/related'))
+            setRelatedProducts(data)
+        }
+        fetchRelated()
+    },[])
     const classes = useStlyes() 
     return (
         <div className='KidsIntro'> 
