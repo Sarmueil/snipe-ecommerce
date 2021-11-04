@@ -18,12 +18,12 @@ const useStlyes = makeStyles({
     } 
 });
 
-// const breakPoints = [
-//     {width:1, itemsToShow: 1},
-//     {width:550, itemsToShow: 2},  
-//     {width:768, itemsToShow: 3},
-//     {width:1200, itemsToShow: 3}
-// ]
+const breakPoints = [
+    {width:1, itemsToShow: 1},
+    {width:550, itemsToShow: 2},  
+    {width:768, itemsToShow: 3},
+    {width:1200, itemsToShow: 3}
+]
 
 const KidsProductPage = () => {
 //     const [ products, setProducts ] = useState([]);
