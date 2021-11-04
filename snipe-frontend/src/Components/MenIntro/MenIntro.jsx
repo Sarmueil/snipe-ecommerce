@@ -45,7 +45,7 @@ const MenIntro = () => {
     //     }
     //     fetchRelated()
     // },[]) 
-    const classes = useStlyes()
+    const classes = useStlyes() 
     return (
         <div className='MenIntro'> 
            <Header /> 
