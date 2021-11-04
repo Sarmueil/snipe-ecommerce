@@ -11,7 +11,7 @@ const womenProducts = [
         price: 999.99,
         countInStock: 0,
         rating: 3.5,
-        numReviews: 12,
+        numReviews: 12,    
       }, 
       {
         _id: '2',
