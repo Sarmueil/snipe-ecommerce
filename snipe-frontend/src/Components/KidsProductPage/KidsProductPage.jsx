@@ -26,38 +26,38 @@ const breakPoints = [
 ]
 
 const KidsProductPage = () => {
-//     const [ products, setProducts ] = useState([]);
-//     useEffect(()=>{
-//         const fetchProducts = async()=>{
-//             const { data } = await(axios.get('/api/kids'))
-//              setProducts(data)
-//         }
-//          fetchProducts()
-//     },[])
-//  const [ xclusive, setXclusive ] = useState([]);
-//    useEffect(()=>{
-//        const fetchXclusive= async()=>{
-//            const { data } = await(axios.get('/api/kxclusive'));
-//            setXclusive(data)
-//        }
-//        fetchXclusive() 
-//    },[])
-//    const [newProducts, setNewProducts]= useState([]);
-//     useEffect(()=>{
-//        const fetchNew = async()=>{
-//            const { data } = await(axios.get('/api/kidsNew')); 
-//            setNewProducts(data)
-//        }
-//        fetchNew()
-//     },[]) 
-//     const [relatedProducts, setRelatedProducts] = useState([]); 
-//     useEffect(()=>{
-//         const fetchRelated= async()=>{
-//             const { data } = await(axios.get('/api/related'))
-//             setRelatedProducts(data)
-//         }
-//         fetchRelated()
-//     },[])
+    const [ products, setProducts ] = useState([]);
+    useEffect(()=>{
+        const fetchProducts = async()=>{
+            const { data } = await(axios.get('/api/kids'))
+             setProducts(data)
+        }
+         fetchProducts()
+    },[])
+ const [ xclusive, setXclusive ] = useState([]);
+   useEffect(()=>{
+       const fetchXclusive= async()=>{
+           const { data } = await(axios.get('/api/kxclusive'));
+           setXclusive(data)
+       }
+       fetchXclusive() 
+   },[])
+   const [newProducts, setNewProducts]= useState([]);
+    useEffect(()=>{
+       const fetchNew = async()=>{
+           const { data } = await(axios.get('/api/kidsNew')); 
+           setNewProducts(data)
+       }
+       fetchNew()
+    },[]) 
+    const [relatedProducts, setRelatedProducts] = useState([]); 
+    useEffect(()=>{
+        const fetchRelated= async()=>{
+            const { data } = await(axios.get('/api/related'))
+            setRelatedProducts(data)
+        }
+        fetchRelated()
+    },[])
     const classes = useStlyes()
     return (
         <div className='newProductPage'>
